@@ -1,16 +1,38 @@
-# React + Vite
+🧠 Project Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The IFSD Color Palette Generator is a full-stack web application built using the MERN (MongoDB, Express, React, Node.js) stack.
+It enables users—especially designers, developers, and artists—to easily generate, customize, and store color palettes for creative projects.
 
-Currently, two official plugins are available:
+The project integrates user authentication, interactive UI components, and persistent database storage.
+Users can register or log in securely, generate random color palettes, adjust colors through a color picker, and save their palettes to MongoDB for later use.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project demonstrates key aspects of full-stack development such as:
 
-## React Compiler
+RESTful API design with Express.js
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+State management and routing in React
 
-## Expanding the ESLint configuration
+Secure authentication using JWT
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Persistent data storage in MongoDB
+
+Frontend–backend communication via Axios
+
+It’s designed as a part of the Integrated Full Stack Development (IFSD) coursework, highlighting end-to-end web application development skills.
+
+⚙️ Setup Guide
+
+Follow these steps to set up and run the project locally:
+
+🧩 Prerequisites
+
+Make sure you have the following installed on your system:
+
+Node.js (v18 or later) → Download here
+
+MongoDB (installed locally or use MongoDB Atlas
+)
+
+Git
+
+VS Code (recommended editor
