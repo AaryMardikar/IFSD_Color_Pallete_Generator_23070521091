@@ -1,0 +1,121 @@
+.register-container {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #ff7eb3 0%, #8e44ad 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+}
+
+/* ✨ Glass Register Card */
+.register-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(25px);
+  border-radius: 20px;
+  padding: 50px 40px;
+  width: 400px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.register-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 45px rgba(0, 0, 0, 0.35);
+}
+
+/* 🖋️ Titles */
+.register-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.register-subtitle {
+  font-size: 1rem;
+  opacity: 0.85;
+  margin-bottom: 30px;
+}
+
+/* 🧩 Input Fields */
+.input-group {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  font-size: 0.9rem;
+  display: block;
+  margin-bottom: 5px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.25);
+  color: white;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input-group input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.input-group input:focus {
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+}
+
+/* 🎯 Button */
+.register-btn {
+  width: 100%;
+  background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
+  color: white;
+  border: none;
+  padding: 14px;
+  font-size: 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.register-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 25px rgba(72, 239, 205, 0.4);
+}
+
+/* 💫 Login Link */
+.login-link {
+  margin-top: 25px;
+  font-size: 0.95rem;
+}
+
+.login-link a {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: 0.3s;
+}
+
+.login-link a:hover {
+  border-bottom: 1px solid white;
+}
+
+/* 📱 Responsive */
+@media (max-width: 450px) {
+  .register-card {
+    width: 90%;
+    padding: 40px 25px;
+  }
+}
